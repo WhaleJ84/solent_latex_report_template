@@ -19,7 +19,7 @@ Have a look at the included `sample.pdf` file to see how the document will look 
 	- [sample.tex](sample.tex), the majority of your time will be spent here, this is the main file for the project, containing the content. 
 
 ## Useful packages
-https://www.ottobib.com/
+
 - [Inserting source code `\usepackage{listings}`](https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings)
 - [Drawing graphs `\usepackage{tikz}`](https://cremeronline.com/LaTeX/minimaltikz.pdf)
 - [Unit symbols `\usepackage{siunitx}`](https://anorien.csc.warwick.ac.uk/mirrors/CTAN/macros/latex/contrib/SIunits/SIunits.pdf)
