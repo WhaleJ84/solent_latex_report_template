@@ -4,7 +4,9 @@ A LaTeX template attempting following Solent's referencing and report writing st
 
 LaTeX solves the issue of document editors such as Microsoft Word doing as they please and refusing to stay as you asked it.
 
-it lets you precisely define the layout standards before you start writing. This allows the separation of worrying about the layout and writing the content. 
+It lets you precisely define the layout standards before you start writing. This allows the separation of worrying about the layout and writing the content. 
+
+Have a look at the included `sample.pdf` file to see how the document will look once compiled.
 
 ## How to get started
 
@@ -25,5 +27,6 @@ it lets you precisely define the layout standards before you start writing. This
 
 ## Useful references
 
+- [LaTeX tutorials](https://www.overleaf.com/learn/latex/Creating_a_document_in_LaTeX)
 - [Mathematical sub/super-scripts](https://www.overleaf.com/learn/latex/Subscripts_and_superscripts)
 - [Mathematical operators](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols#Binary_operators)
