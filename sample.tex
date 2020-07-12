@@ -1,45 +1,46 @@
-% Joe Appleton 03/07/2015 
-%
-% A .tex template which follows the Solent University report guidelines, 
-% The .docx equivalent can be found at http://mycourse.solent.ac.uk/mod/book/view.php?id=232731&chapterid=36550
-% If you're a non windows users you must ensure you have  Trebuchet MS installed in your system fonts http://www.fontpalace.com/font-download/Trebuchet%2BMS/
-% 
+% An example document originally forked from https://github.com/joeappleton21/solent_latex_report_template
 
+% Set up your document packages and definitions here
+% == Page dimensions ==
 \documentclass[12pt,a4paper]{article}
-\usepackage{graphicx}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry} % Page adaptation. Documentation: https://anorien.csc.warwick.ac.uk/mirrors/CTAN/macros/latex/contrib/geometry/geometry.pdf
 
+% == Font packages ==
+\usepackage{tgpagella} % A sensible font for papers
+\usepackage[T1]{fontenc}    % {Both packages are used to combat different issues most will find down the line
+\usepackage[utf8]{inputenc} % Read here for more:https://tex.stackexchange.com/questions/44694/fontenc-vs-inputenc}
 
-%set up margins to match the word template
-\usepackage[top=2.54cm, bottom=2.54cm, left=2.17cm, right=3.17cm]{geometry}
-\usepackage{fontspec}
-\setmainfont{Trebuchet MS}
+% == Multimedia packages ==
+\usepackage{graphicx} % Allows the inclusion/adaptation of graphics. Documentation: http://mirror.ox.ac.uk/sites/ctan.org/macros/latex/required/graphics/grfguide.pdf
+\usepackage{tabularx} % Allows tables. Documentation: http://mirror.ox.ac.uk/sites/ctan.org/macros/latex/required/tools/tabularx.pdf
+\usepackage{hyperref} % Adds hyperlinks. Documentation: http://mirror.ox.ac.uk/sites/ctan.org/macros/latex/contrib/hyperref/doc/manual.pdf
+\hypersetup{         %
+    colorlinks=true, %
+    linkcolor=black, %
+    filecolor=black, % Defines how the package works
+    urlcolor=black,  %
+    citecolor=black, %
+}                    % 
+\urlstyle{same}      %
 
-%ensure that words are not hyphenated
-
-
-%set up the bibliography, using the Harvard referencing style
-\usepackage{natbib}
-\bibliographystyle{agsm}
-
-
+% == Referencing packages ==
+\usepackage[backend=biber, style=authoryear-icomp]{biblatex} % Documentation: https://anorien.csc.warwick.ac.uk/mirrors/CTAN/macros/latex/contrib/biblatex/doc/biblatex.pdf
+\addbibresource{sample.bib} % Defines where the bibliography file is located
 
 \begin{document}
 %modify your title page
 \begin{titlepage}
-{\fontsize{14}{12} \emph{Southampton Solent University}\par}
-{\fontsize{14}{12}  \emph{Enter Name of School} \par}
-\centering
-\vspace{10 cm}
-{\scshape\Huge Enter Assessment Title Here\par}
-\vspace{10cm}	
-\begin{flushleft}
-
-Author	        \hspace{1.12cm} 	: Your student number   \\
-Course title	\hspace{0.2cm} 	: Your course  \\
-Tutor's name	\hspace{0.00cm}       : Your tutor   \\
-
-\end{flushleft}
- 
+    {\fontsize{14}{12} \emph{Southampton Solent University}\par}
+    {\fontsize{14}{12}  \emph{Enter Name of School} \par}
+    \centering
+    \vspace{10 cm}
+    {\scshape\Huge Enter Assessment Title Here\par}
+    \vspace{10cm}
+    \begin{flushleft}
+        Author \hspace{1.1cm} : Your student number\\
+        Course title \hspace{0.29cm} : Your course\\
+        Tutor's name \hspace{0.03cm} : Your tutor\\
+    \end{flushleft}
 \end{titlepage}
 
 \tableofcontents
@@ -50,51 +51,41 @@ Tutor's name	\hspace{0.00cm}       : Your tutor   \\
 
 \clearpage
 
-
 \section{Abstract}
-gffgfgfgfgfgfgfgfg 
-\section{Introduction}
+gffgfgfgfgfgfgfgfg
 
-Hello welcome to my project , check out the LaTeX guide if you're interested in how I structured this  \citep{latex:guide}
+\section{Introduction}
+Hello welcome to my project, check out the LaTeX guide if you're interested in how I structured this \parencite{latex:guide}
 
 \begin{figure}[h!]
-	\centering
-	\includegraphics{assets/cat.jpeg}
-	 \caption{I'm a cat}
-	 \label{fig:cat}
+    \centering
+    \includegraphics{assets/cat.jpeg}
+    \caption{I'm a cat}
+    \label{fig:cat}
 \end{figure}
 
-
-
-
 \section{Literature survey}
-\citet[p.~2]{latex:guide}
- This is my Literature survey
+\textcite[p.~2]{latex:guide}
+This is my Literature survey
 
 \section{Methodology}
-
-On the whole mostly good 
+On the whole mostly good
 
 \section{Results}
-
-Here are some results 
+Here are some results
 
 \section{Discussion}
-
 Everything was good
 
 \section{Conclusion}
-
 Yes!
 
 \section{Appendix}
-
 All good thanks
 
 \clearpage
 
+\section{References}
+\printbibliography[heading=none]
 
-\bibliography{sample}
-
-
-\end{document}t}
+\end{document}
