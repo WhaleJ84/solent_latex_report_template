@@ -6,7 +6,8 @@ LaTeX solves the issue of document editors such as Microsoft Word doing as they 
 
 It lets you precisely define the layout standards before you start writing. This allows the separation of worrying about the layout and writing the content. 
 
-Have a look at the included `sample.pdf` file to see how the document will look once compiled.
+Have a look at the included `sample.pdf` file to see how the document will look once compiled, however the title will look as such by default:
+![Title page](assets/title.png)
 
 ## How to get started
 
