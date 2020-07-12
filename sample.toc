@@ -1,8 +1,0 @@
-\contentsline {section}{\numberline {1}Abstract}{3}
-\contentsline {section}{\numberline {2}Introduction}{3}
-\contentsline {section}{\numberline {3}Literature survey}{3}
-\contentsline {section}{\numberline {4}Methodology}{3}
-\contentsline {section}{\numberline {5}Results}{3}
-\contentsline {section}{\numberline {6}Discussion}{3}
-\contentsline {section}{\numberline {7}Conclusion}{4}
-\contentsline {section}{\numberline {8}Appendix}{4}
