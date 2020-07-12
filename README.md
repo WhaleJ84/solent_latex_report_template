@@ -32,5 +32,7 @@ Have a look at the included `sample.pdf` file to see how the document will look 
 ## Useful references
 
 - [LaTeX tutorials](https://www.overleaf.com/learn/latex/Creating_a_document_in_LaTeX)
+- [Referencing RFC's](https://notesofaprogrammer.blogspot.com/2014/11/bibtex-entries-for-ietf-rfcs-and.html)
+- [Referencing books from ISBN's](https://www.ottobib.com/)
 - [Mathematical sub/super-scripts](https://www.overleaf.com/learn/latex/Subscripts_and_superscripts)
 - [Mathematical operators](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols#Binary_operators)
