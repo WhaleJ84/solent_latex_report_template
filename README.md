@@ -25,6 +25,10 @@ Have a look at the included `sample.pdf` file to see how the document will look 
 - [Unit symbols](https://anorien.csc.warwick.ac.uk/mirrors/CTAN/macros/latex/contrib/SIunits/SIunits.pdf)
 - [Importing CSV data](http://anorien.csc.warwick.ac.uk/mirrors/CTAN/macros/latex/contrib/csvsimple/csvsimple.pdf)
 
+## Useful browser extensions
+
+- [currentpagetobibtex (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/currentpagetobibtex/)
+
 ## Useful references
 
 - [LaTeX tutorials](https://www.overleaf.com/learn/latex/Creating_a_document_in_LaTeX)
